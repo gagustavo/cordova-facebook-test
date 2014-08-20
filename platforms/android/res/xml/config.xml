@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.joaogustavo.facebookteste" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidLaunchMode" value="singleTop" />
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <name>TesteFacebookApi</name>
+    <description>Testando api javascript do facebook</description>
+    <author email="gagu2030@gmail.com" href="g@gustavo.in">João Gustavo Vieita e Silva</author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
